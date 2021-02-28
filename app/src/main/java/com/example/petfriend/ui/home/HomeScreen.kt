@@ -1,4 +1,4 @@
-package com.example.petfriend.home
+package com.example.petfriend.ui.home
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.text.BasicText
@@ -10,8 +10,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.NavController
 import androidx.navigation.compose.navigate
-import com.example.petfriend.adopt.AdoptScreenRoute
 import com.example.petfriend.theme.PetFriendTheme
+import com.example.petfriend.ui.adopt.AdoptScreenRoute
+import com.example.petfriend.viewmodel.HomeViewModel
 
 const val HomeScreenRoute = "home"
 

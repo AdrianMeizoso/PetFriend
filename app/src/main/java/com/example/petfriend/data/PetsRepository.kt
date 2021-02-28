@@ -1,4 +1,4 @@
-package com.example.petfriend.adopt
+package com.example.petfriend.data
 
 import javax.inject.Inject
 

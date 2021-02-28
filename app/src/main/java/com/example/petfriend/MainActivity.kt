@@ -7,13 +7,13 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.petfriend.adopt.AdoptScreen
-import com.example.petfriend.adopt.AdoptScreenRoute
-import com.example.petfriend.adopt.AdoptViewModel
-import com.example.petfriend.home.HomeScreen
-import com.example.petfriend.home.HomeScreenRoute
-import com.example.petfriend.home.HomeViewModel
 import com.example.petfriend.theme.PetFriendTheme
+import com.example.petfriend.ui.adopt.AdoptScreen
+import com.example.petfriend.ui.adopt.AdoptScreenRoute
+import com.example.petfriend.ui.home.HomeScreen
+import com.example.petfriend.ui.home.HomeScreenRoute
+import com.example.petfriend.viewmodel.AdoptViewModel
+import com.example.petfriend.viewmodel.HomeViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
